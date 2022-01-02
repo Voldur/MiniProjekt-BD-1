@@ -6,7 +6,7 @@ Mini projekt na laboratorium Bazy Danych 1 o temacie projektu 'Straż pożarna' 
 - Szymon Śmiglarski
 - Kacper Wanat
 
-# POSTĘP
+## POSTĘP
 | CEL | STATUS |
 | ------ | ------ |
 | SCHEMAT | 80% |
