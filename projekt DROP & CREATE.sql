@@ -7,6 +7,7 @@ DROP TABLE jednostka CASCADE CONSTRAINTS;
 DROP TABLE jurysdykcja CASCADE CONSTRAINTS;
 DROP TABLE rodzaj CASCADE CONSTRAINTS;
 DROP TABLE pojazd CASCADE CONSTRAINTS;
+DROP TABLE wyposarzenie CASCADE CONSTRAINTS;
 DROP TABLE osoba CASCADE CONSTRAINTS;
 DROP TABLE pracownik CASCADE CONSTRAINTS;
 DROP TABLE status CASCADE CONSTRAINTS;
@@ -68,17 +69,25 @@ CONSTRAINT ID_item_poj
     FOREIGN KEY (ID_item)
     REFERENCES sprzet(ID_item)
 );
+CREATE TABLE wyposarzenie(
+ID_wyposarzenie INTEGER PRIMARY KEY NOT NULL,
+ID_pojazd INTEGER,
+ID_item INTEGER,
+ilosc INTEGER NOT NULL,
+CONSTRAINT ID_pojazd_wyp
+    FOREIGN KEY (ID_pojazd)
+    REFERENCES pojazd(ID_pojazd),
+CONSTRAINT ID_item_wyp
+    FOREIGN KEY (ID_item)
+    REFERENCES sprzet(ID_item)
+);
 CREATE TABLE osoba(
 ID_osoby INTEGER PRIMARY KEY NOT NULL,
 imie VARCHAR2(20) NOT NULL,
 nazwisko  VARCHAR2(20) NOT NULL,
 pesel INTEGER UNIQUE,
 telefon INTEGER,
-ID_stanowisko INTEGER,
 ID_adres INTEGER,
-CONSTRAINT ID_stanowisko_oso
-    FOREIGN KEY (ID_stanowisko)
-    REFERENCES stanowisko(ID_stanowisko),
 CONSTRAINT ID_adres_oso
     FOREIGN KEY (ID_adres)
     REFERENCES adres(ID_adres)
@@ -88,7 +97,10 @@ ID_pracownik INTEGER PRIMARY KEY NOT NULL,
 ID_osoba INTEGER,
 ID_pojazd INTEGER,
 ID_zmiana INTEGER,
+ID_stanowisko INTEGER,
 ID_jednostka INTEGER,
+pensja INTEGER,
+starz INTEGER,
 CONSTRAINT ID_osoba_prac
     FOREIGN KEY (ID_osoba)
     REFERENCES osoba(ID_osoby),
@@ -98,6 +110,9 @@ CONSTRAINT ID_pojazd_prac
 CONSTRAINT ID_zmiana_prac
     FOREIGN KEY (ID_zmiana)
     REFERENCES zmiana(ID_zmiana),
+CONSTRAINT ID_stanowisko_prac
+    FOREIGN KEY (ID_stanowisko)
+    REFERENCES stanowisko(ID_stanowisko),
 CONSTRAINT ID_jednostka_prac
     FOREIGN KEY (ID_jednostka)
     REFERENCES jednostka(ID_jednostka)
