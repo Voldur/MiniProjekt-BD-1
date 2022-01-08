@@ -69,8 +69,8 @@ CONSTRAINT ID_item_poj
     FOREIGN KEY (ID_item)
     REFERENCES sprzet(ID_item)
 );
-CREATE TABLE wyposarzenie(
-ID_wyposarzenie INTEGER PRIMARY KEY NOT NULL,
+CREATE TABLE wyposazenie(
+ID_wyposazenie INTEGER PRIMARY KEY NOT NULL,
 ID_pojazd INTEGER,
 ID_item INTEGER,
 ilosc INTEGER NOT NULL,
