@@ -11,10 +11,26 @@ INSERT INTO adres VALUES(8, 'Nowy Sącz', 'Księciów Polskich', '60');
 INSERT INTO adres VALUES(9, 'Piotrków', 'Piotrowska', '3');
 INSERT INTO adres VALUES(10, 'Szczecin', 'Berlińska', '125');
 INSERT INTO adres VALUES(11, 'Przemków', 'Piorunowa', '69');
-INSERT INTO adres VALUES(11, 'Łódź', 'Gospody', '15');
-INSERT INTO adres VALUES(12, 'Kielce', 'Domaszowice', '83');
+INSERT INTO adres VALUES(12, 'Łódź', 'Gospody', '15');
+INSERT INTO adres VALUES(13, 'Kielce', 'Domaszowice', '83');
 INSERT INTO adres VALUES(14, 'Warszawa', 'Kobyłka', '93');
 INSERT INTO adres VALUES(15, 'Poznań', 'Packowa', '73');
+INSERT INTO adres VALUES(16, 'Białystok', 'Szkolna', '17');
+INSERT INTO adres VALUES(17, 'Choroszcz', 'plac Brodowicza','1');
+INSERT INTO adres VALUES(18, 'Szydłowiec', 'Rynek Wielki','1');
+INSERT INTO adres VALUES(19, 'Choroszcz', 'plac Brodowicza','1');
+INSERT INTO adres VALUES(20, 'Gorzów', 'Mostowa','3');
+INSERT INTO adres VALUES(21, 'Choroszcz', 'plac Brodowicza','1');
+INSERT INTO adres VALUES(22, 'Jelenia Góra','Piłsudskiego','14');
+INSERT INTO adres VALUES(23, 'Wejherowo', 'Rzeźnicka','12c');
+INSERT INTO adres VALUES(24, 'Zakopane', 'Stanisława Witkiewicza','8');
+INSERT INTO adres VALUES(25, 'Wisła', 'Jawornik','74b');
+INSERT INTO adres VALUES(26, 'Tarnów', 'Plac Kazimierza Wielkiego','3');
+INSERT INTO adres VALUES(27, 'Białystok', 'Warszawska','59');
+INSERT INTO adres VALUES(28, 'Sopot', 'Bohaterów Monte Cassino','17');
+INSERT INTO adres VALUES(29, 'Wrocław', 'Ruska','62');
+INSERT INTO adres VALUES(30, 'Lipinki Łużyckie', 'Główna','6');
+
 
 --STANOWISKO--
 ---ID_STANOWISKO, NAZWA, OPIS
@@ -102,8 +118,8 @@ INSERT INTO pojazd VALUES(5, 'Samochód ratowniczo – gaśniczy specjalny', 'MA
 INSERT INTO pojazd VALUES(6, 'Samochód ratowniczo – gaśniczy specjalny', 'SCANIA', 'BD-WW213', 4, id_item);
 INSERT INTO pojazd VALUES(7, 'Samochód ratowniczo – gaśniczy specjalny', 'MERCEDES BENZ', 'BD-38313', 8, id_item);
 INSERT INTO pojazd VALUES(8, 'Samochód ratowniczo – gaśniczy specjalny', 'TOYOTA', 'BD-75058', 7, id_item);
-INSERT INTO pojazd VALUES(9, 'Samochód z drabiną i/lub podnośnikiem hydraulicznym', 'MANN', 'BD-PLOKS', 6, id_item);
-INSERT INTO pojazd VALUES(10, 'Samochód z drabiną i/lub podnośnikiem hydraulicznym', 'SOLARIS', 'BD-STONK', 3, id_item);
+INSERT INTO pojazd VALUES(9, 'Samochód z drabiną ilub podnośnikiem hydraulicznym', 'MANN', 'BD-PLOKS', 6, id_item);
+INSERT INTO pojazd VALUES(10, 'Samochód z drabiną ilub podnośnikiem hydraulicznym', 'SOLARIS', 'BD-STONK', 3, id_item);
 INSERT INTO pojazd VALUES(11, 'Drabina mechaniczna', 'MANN', 'BD-SZK17', 9, id_item);
 INSERT INTO pojazd VALUES(12, 'Samochód zaopatrzeniowy', 'TOYOTA', 'BD-00007', 5, id_item);
 INSERT INTO pojazd VALUES(13, 'Samochód zaopatrzeniowy', 'MANN', 'BD-BLA932', 4, id_item);
@@ -124,9 +140,24 @@ INSERT INTO osoba VALUES(9, 'Adam', 'Wujek', '89081775434', '6636323302', 1, 9);
 INSERT INTO osoba VALUES(10, 'Piotr', 'Piotrowski', '62083088395', '75559634108973', 2, 10);
 INSERT INTO osoba VALUES(11, 'Ewa', 'Kowalska', '57071391542', '09926266999664', 3, 11);
 INSERT INTO osoba VALUES(12, 'Janusz', 'Polski', '00310412379', '76029877535', 4, 12);
-INSERT INTO osoba VALUES(13, 'Marcin', 'Kiler', '75112146128', '44056717232', 1, 13);
+INSERT INTO osoba VALUES(13, 'Jerzy', 'Kiler', '75112146128', '44056717232', 1, 13);
 INSERT INTO osoba VALUES(14, 'Jakub', 'Konserwator', '51122341351', '5802977310', 2, 14);
-INSERT INTO osoba VALUES(15, 'Zdzislaw', 'Podlaski', '87011666663', '0434428481', 3, 15);
+INSERT INTO osoba VALUES(15, 'Krzysztof', 'Kononowicz', '00321001821', '857191091', 3, 15);
+INSERT INTO osoba VALUES(16, 'Marcin', 'Gortat', '91073146861', '576897234', 3, 16);
+INSERT INTO osoba VALUES(17, 'Franek', 'Dolas', '71080537139', '435098123', 3, 17);
+INSERT INTO osoba VALUES(18, 'Kristoffer', 'Klauss', '00262866833', '187908765', 3, 18);
+INSERT INTO osoba VALUES(19, 'Justin', 'Hutzler', '58031767953', '187209567', 3, 19);
+INSERT INTO osoba VALUES(20, 'Lorenz', 'Moser', '59040624226', '1874428481', 3, 20);
+INSERT INTO osoba VALUES(21, 'Jan', 'Sobieski', '60021247139', '170616960', 3, 21);
+INSERT INTO osoba VALUES(22, 'Jadwiga', 'Jagiellonka', '79021538832', '140814311', 3, 22);
+INSERT INTO osoba VALUES(23, 'Andrzej', 'Lepper', '87020726332', '195420110', 3, 23);
+INSERT INTO osoba VALUES(24, 'Adam', 'Małysz', '81041099152', '197720221', 3, 24);
+INSERT INTO osoba VALUES(25, 'Kamil', 'Stoch', '71050278213', '198720221', 3, 25);
+INSERT INTO osoba VALUES(26, 'Dawid', 'Kubacki', '48022868134', '199020221', 3, 26);
+INSERT INTO osoba VALUES(27, 'Piotr', 'Żyła', '80020484598', '198720222', 3, 27);
+INSERT INTO osoba VALUES(28, 'Johann', 'Bach', '03261414373', '168517501', 3, 28);
+INSERT INTO osoba VALUES(29, 'Jan', 'Łośrodo', '68723518312', '197020201', 3, 29);
+INSERT INTO osoba VALUES(30, 'Jarosław', 'Mexicano', '6509313981', '789235711', 3, 30);
 
 --PRACOWNIK--
 ----PRACOWNIK, OSOBA, POJAZD, ZMIANA, STANOWISKO, JEDNOSTKA
