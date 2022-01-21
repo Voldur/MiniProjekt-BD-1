@@ -9,10 +9,11 @@ Mini projekt na laboratorium Bazy Danych 1 o temacie projektu 'Straż pożarna' 
 ## POSTĘP
 | CEL | STATUS |
 | ------ | ------ |
-| SCHEMAT | 90% |
-| CRATE | 90% |
-| INSERT | 50% |
-| WYZWALACZE | 0% |
-| PERSPEKTYWY | 0% |
+| SCHEMAT | 100% |
+| CRATE | 100% |
+| INSERT | 100% |
+| PERSPEKTYWY | 0 / 6 |
+| KURSORY | 0 / 4 |
+| WYZWALACZE | 0 / 3 |
 | INTERFEJS | 0% |
 | SPRAWOZDANIE | 0% |
