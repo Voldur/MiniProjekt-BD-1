@@ -19,5 +19,4 @@ Mini projekt na laboratorium Bazy Danych 1 o temacie projektu 'Straż pożarna' 
 | SPRAWOZDANIE | 20% | ❌ |
 
 ## SPRAWOZDANIE
-Sprawozdanie wykonane za pomocą Google Docs dostępne pod adresem:
-[Link](https://docs.google.com/document/d/1XcoI_pxX_Y333Jj1p_CGyhO-n63axE0nCOTYTN7aZMc/edit?usp=sharing "Google Docs")
+[Sprawozdanie wykonane za pomocą Google Docs dostępne pod adresem](https://docs.google.com/document/d/1XcoI_pxX_Y333Jj1p_CGyhO-n63axE0nCOTYTN7aZMc/edit?usp=sharing "Google Docs")
