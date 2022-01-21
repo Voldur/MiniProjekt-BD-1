@@ -39,7 +39,7 @@ ilosc INTEGER
 );
 CREATE TABLE jednostka(
 ID_jednostka INTEGER PRIMARY KEY NOT NULL,
-nazwa VARCHAR2(20) NOT NULL,
+nazwa VARCHAR2(200) NOT NULL,
 ID_adres INTEGER,
 CONSTRAINT ID_adres_jed
     FOREIGN KEY (ID_adres)
