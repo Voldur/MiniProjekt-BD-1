@@ -46,7 +46,14 @@ INNER JOIN osoba ON pracownik.id_osoba=osoba.id_osoby
 INNER JOIN adres ON osoba.id_adres=adres.id_adres
 WITH READ ONLY;
 
+CREATE OR REPLACE VIEW zgloszenie1 AS
+SELECT zgloszenie.id_zgloszenie, osoba.imie, osoba.nazwisko, rodzaj.nazwa, rodzaj.opis FROM zgloszenie
+INNER JOIN rodzaj ON zgloszenie.id_rodzaj=rodzaj.id_rodzaj
+INNER JOIN osoba ON osoba.id_osoby=zgloszenie.id_osoba
+WHERE rodzaj.id_rodzaj NOT LIKE '15'
+WITH READ ONLY;
 
+SELECT * FROM zgloszenie1;
 SELECT * FROM pojazd1;
 SELECT * FROM pojazd2;
 SELECT * FROM pojazd3;
