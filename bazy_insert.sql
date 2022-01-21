@@ -109,22 +109,22 @@ INSERT INTO rodzaj VALUES(14, 'Próba samobójcza', 'Zgłoszenie próby samobój
 INSERT INTO rodzaj VALUES(15, 'Fałszywy alarm', 'Fałszywe wezwanie straży pożarnej');
 
 --POJAZD--
-----ID_POAJZD, TYP, MODEL, REJESTRACJA, MIEJSCA, ID_ITEM
-INSERT INTO pojazd VALUES(1, 'Samochód ratowniczo – gaśniczy z autopompą', 'MANN', 'BD-12345', 7, id_item);
-INSERT INTO pojazd VALUES(2, 'Samochód ratowniczo – gaśniczy z autopompą', 'SCANIA', 'BD-PL123', 12, id_item);
-INSERT INTO pojazd VALUES(3, 'Samochód ratowniczo – gaśniczy z autopompą', 'SOLARIS', 'BD-7312A', 4, id_item);
-INSERT INTO pojazd VALUES(4, 'Samochód ratowniczo – gaśniczy z autopompą', 'JELCZ', 'BD-420BC', 9, id_item);
-INSERT INTO pojazd VALUES(5, 'Samochód ratowniczo – gaśniczy specjalny', 'MANN', 'BD-LEOPA', 2, id_item);
-INSERT INTO pojazd VALUES(6, 'Samochód ratowniczo – gaśniczy specjalny', 'SCANIA', 'BD-WW213', 4, id_item);
-INSERT INTO pojazd VALUES(7, 'Samochód ratowniczo – gaśniczy specjalny', 'MERCEDES BENZ', 'BD-38313', 8, id_item);
-INSERT INTO pojazd VALUES(8, 'Samochód ratowniczo – gaśniczy specjalny', 'TOYOTA', 'BD-75058', 7, id_item);
-INSERT INTO pojazd VALUES(9, 'Samochód z drabiną ilub podnośnikiem hydraulicznym', 'MANN', 'BD-PLOKS', 6, id_item);
-INSERT INTO pojazd VALUES(10, 'Samochód z drabiną ilub podnośnikiem hydraulicznym', 'SOLARIS', 'BD-STONK', 3, id_item);
-INSERT INTO pojazd VALUES(11, 'Drabina mechaniczna', 'MANN', 'BD-SZK17', 9, id_item);
-INSERT INTO pojazd VALUES(12, 'Samochód zaopatrzeniowy', 'TOYOTA', 'BD-00007', 5, id_item);
-INSERT INTO pojazd VALUES(13, 'Samochód zaopatrzeniowy', 'MANN', 'BD-BLA932', 4, id_item);
-INSERT INTO pojazd VALUES(14, 'Samochód do przewozu osób', 'POLONEZ', 'BD-KIK23', 4, id_item);
-INSERT INTO pojazd VALUES(15, 'Samochód ratownictwa technicznego', 'TOYOTA', 'BD-13484', 5, id_item);
+----ID_POAJZD, TYP, MODEL, REJESTRACJA, MIEJSCA
+INSERT INTO pojazd VALUES(1, 'Samochód ratowniczo – gaśniczy z autopompą', 'MANN', 'BD-12345', 7);
+INSERT INTO pojazd VALUES(2, 'Samochód ratowniczo – gaśniczy z autopompą', 'SCANIA', 'BD-PL123', 12);
+INSERT INTO pojazd VALUES(3, 'Samochód ratowniczo – gaśniczy z autopompą', 'SOLARIS', 'BD-7312A', 4);
+INSERT INTO pojazd VALUES(4, 'Samochód ratowniczo – gaśniczy z autopompą', 'JELCZ', 'BD-420BC', 9);
+INSERT INTO pojazd VALUES(5, 'Samochód ratowniczo – gaśniczy specjalny', 'MANN', 'BD-LEOPA', 2);
+INSERT INTO pojazd VALUES(6, 'Samochód ratowniczo – gaśniczy specjalny', 'SCANIA', 'BD-WW213', 4);
+INSERT INTO pojazd VALUES(7, 'Samochód ratowniczo – gaśniczy specjalny', 'MERCEDES BENZ', 'BD-38313', 8);
+INSERT INTO pojazd VALUES(8, 'Samochód ratowniczo – gaśniczy specjalny', 'TOYOTA', 'BD-75058', 7);
+INSERT INTO pojazd VALUES(9, 'Samochód z drabiną ilub podnośnikiem hydraulicznym', 'MANN', 'BD-PLOKS', 6);
+INSERT INTO pojazd VALUES(10, 'Samochód z drabiną ilub podnośnikiem hydraulicznym', 'SOLARIS', 'BD-STONK', 3);
+INSERT INTO pojazd VALUES(11, 'Drabina mechaniczna', 'MANN', 'BD-SZK17', 9);
+INSERT INTO pojazd VALUES(12, 'Samochód zaopatrzeniowy', 'TOYOTA', 'BD-00007', 5);
+INSERT INTO pojazd VALUES(13, 'Samochód zaopatrzeniowy', 'MANN', 'BD-BLA932', 4);
+INSERT INTO pojazd VALUES(14, 'Samochód do przewozu osób', 'POLONEZ', 'BD-KIK23', 4);
+INSERT INTO pojazd VALUES(15, 'Samochód ratownictwa technicznego', 'TOYOTA', 'BD-13484', 5);
 
 --OSOBA--
 ----ID, IMIE, NAZWISKO, PESEL, TELEFON, ID_STANOWISKO, ID_ADRES----
