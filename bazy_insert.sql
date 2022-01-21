@@ -208,6 +208,6 @@ insert into wyposazenie values(10,10,10,1);
 insert into wyposazenie values(11,11,11,1);
 insert into wyposazenie values(12,12,12,1);
 insert into wyposazenie values(13,13,13,1);
-insert into wyposazenie values(15,15,15,1);
+insert into wyposazenie values(14,14,14,1);
 insert into wyposazenie values(15,15,15,1);
 
