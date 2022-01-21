@@ -53,6 +53,14 @@ INNER JOIN osoba ON osoba.id_osoby=zgloszenie.id_osoba
 WHERE rodzaj.id_rodzaj NOT LIKE '15'
 WITH READ ONLY;
 
+CREATE OR REPLACE VIEW jurysdykcje1 AS
+SELECT jurysdykcja.id_teren, jurysdykcja.powieszchnia, adres.miasto, jednostka.nazwa FROM jurysdykcja
+INNER JOIN jednostka ON jurysdykcja.id_jednostka=jednostka.id_jednostka
+INNER JOIN adres ON jednostka.id_adres=adres.id_adres
+ORDER BY adres.miasto 
+WITH READ ONLY;
+
+SELECT * FROM jurysdykcje1;
 SELECT * FROM zgloszenie1;
 SELECT * FROM pojazd1;
 SELECT * FROM pojazd2;
