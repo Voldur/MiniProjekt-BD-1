@@ -13,7 +13,7 @@ Mini projekt na laboratorium Bazy Danych 1 o temacie projektu 'Straż pożarna' 
 | CREATE | 13 / 12 | ✔️ |
 | INSERT | 173 / XX | ✔️ |
 | PERSPEKTYWY | 8 / 6 | ✔️ |
-| KURSORY | 0 / 4 | ❌ |
+| KURSORY | 4 / 4 | ✔️ |
 | WYZWALACZE | 3 / 3 | ✔️ |
 | INTERFEJS | 0% | ❌ |
 | SPRAWOZDANIE | 35% | ❌ |
