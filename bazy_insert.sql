@@ -192,3 +192,22 @@ INSERT INTO status VALUES(15, 'W trakcie', DATE'2022-01-02', NULL, 1);
 INSERT INTO zgloszenie VALUES(1, DATE'2022-01-01', 13, 1, 15, 1);
 INSERT INTO zgloszenie VALUES(2, DATE'2013-02-17', 9, 2, 2, 2);
 INSERT INTO zgloszenie VALUES(3, DATE'2020-10-24', 4, 3, 15, 3);
+
+--WYPOSAZENIE--
+--ID_WYPOSAZENIE, ID_POJAZD, ID_ITEM, ILOSC
+insert into wyposazenie values(1,1,1,1);
+insert into wyposazenie values(2,2,2,1);
+insert into wyposazenie values(3,3,3,1);
+insert into wyposazenie values(4,4,4,1);
+insert into wyposazenie values(5,5,5,1);
+insert into wyposazenie values(6,6,6,1);
+insert into wyposazenie values(7,7,7,1);
+insert into wyposazenie values(8,8,8,1);
+insert into wyposazenie values(9,9,9,1);
+insert into wyposazenie values(10,10,10,1);
+insert into wyposazenie values(11,11,11,1);
+insert into wyposazenie values(12,12,12,1);
+insert into wyposazenie values(13,13,13,1);
+insert into wyposazenie values(15,15,15,1);
+insert into wyposazenie values(15,15,15,1);
+
