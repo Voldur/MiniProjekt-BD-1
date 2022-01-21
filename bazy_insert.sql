@@ -92,21 +92,21 @@ INSERT INTO jurysdykcja VALUES(4, '59 km', 4);
 
 --RODZAJ--
 ----ID_RODZAJ, NAZWA, OPIS
-INSER INTO rodzaj VALUES(1, 'Pożar mały', 'Wybuch ognia w rejonie na jedną jednostkę straży');
-INSER INTO rodzaj VALUES(2, 'Pożar średni', 'Wybuch ognia w rejonie na dwie jednostki straży');
-INSER INTO rodzaj VALUES(3, 'Pożar duży', 'Wybuch ognia w rejonie na ponad dwie jednostki straży');
-INSER INTO rodzaj VALUES(4, 'Wyciek gazu', 'Wyciek gazu propan butan w rejonie');
-INSER INTO rodzaj VALUES(5, 'Wybuch gazu', 'Wybuch gazu propan butan w rejonie');
-INSER INTO rodzaj VALUES(6, 'Wypadek mały', 'Wypadek samochodowy z zapotrzebowaniem jednej jednostki straży');
-INSER INTO rodzaj VALUES(7, 'Wypadek duży', 'Duży wypadek samochodowy na dwie jednostki straży');
-INSER INTO rodzaj VALUES(8, 'Karambol', 'Wypadek samochodowy o dużej skali potencjalnych rannych');
-INSER INTO rodzaj VALUES(9, 'Kot na drzewie', 'Kot na drzewie o małym priorytecie ratowniczym');
-INSER INTO rodzaj VALUES(10, 'Pożar na polu', 'Pożar na polu spowodowany ogniem na suchej powierzchni');
-INSER INTO rodzaj VALUES(11, 'Pożar w lesie', 'Pożar w lesie');
-INSER INTO rodzaj VALUES(12, 'Alarm bombowy', 'Zgłoszenie bomby w miejscu publicznym');
-INSER INTO rodzaj VALUES(13, 'Wybuch bombowy', 'Wybuch materiałów wybuchowych w miejscu publicznym');
-INSER INTO rodzaj VALUES(14, 'Próba samobójcza', 'Zgłoszenie próby samobójczej w miejscu publicznym');
-INSER INTO rodzaj VALUES(15, 'Fałszywy alarm', 'Fałszywe wezwanie straży pożarnej');
+INSERT INTO rodzaj VALUES(1, 'Pożar mały', 'Wybuch ognia w rejonie na jedną jednostkę straży');
+INSERT INTO rodzaj VALUES(2, 'Pożar średni', 'Wybuch ognia w rejonie na dwie jednostki straży');
+INSERT INTO rodzaj VALUES(3, 'Pożar duży', 'Wybuch ognia w rejonie na ponad dwie jednostki straży');
+INSERT INTO rodzaj VALUES(4, 'Wyciek gazu', 'Wyciek gazu propan butan w rejonie');
+INSERT INTO rodzaj VALUES(5, 'Wybuch gazu', 'Wybuch gazu propan butan w rejonie');
+INSERT INTO rodzaj VALUES(6, 'Wypadek mały', 'Wypadek samochodowy z zapotrzebowaniem jednej jednostki straży');
+INSERT INTO rodzaj VALUES(7, 'Wypadek duży', 'Duży wypadek samochodowy na dwie jednostki straży');
+INSERT INTO rodzaj VALUES(8, 'Karambol', 'Wypadek samochodowy o dużej skali potencjalnych rannych');
+INSERT INTO rodzaj VALUES(9, 'Kot na drzewie', 'Kot na drzewie o małym priorytecie ratowniczym');
+INSERT INTO rodzaj VALUES(10, 'Pożar na polu', 'Pożar na polu spowodowany ogniem na suchej powierzchni');
+INSERT INTO rodzaj VALUES(11, 'Pożar w lesie', 'Pożar w lesie');
+INSERT INTO rodzaj VALUES(12, 'Alarm bombowy', 'Zgłoszenie bomby w miejscu publicznym');
+INSERT INTO rodzaj VALUES(13, 'Wybuch bombowy', 'Wybuch materiałów wybuchowych w miejscu publicznym');
+INSERT INTO rodzaj VALUES(14, 'Próba samobójcza', 'Zgłoszenie próby samobójczej w miejscu publicznym');
+INSERT INTO rodzaj VALUES(15, 'Fałszywy alarm', 'Fałszywe wezwanie straży pożarnej');
 
 --POJAZD--
 ----ID_POAJZD, TYP, MODEL, REJESTRACJA, MIEJSCA, ID_ITEM
