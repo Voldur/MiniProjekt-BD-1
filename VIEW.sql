@@ -5,12 +5,6 @@ INNER JOIN osoba ON osoba.id_osoby=pracownik.id_osoba
 WHERE pojazd.id_pojazd=1
 WITH READ ONLY;
 
-CREATE OR REPLACE VIEW pojazd2 AS
-SELECT osoba.imie,osoba.nazwisko,pojazd.model,pojazd.rejestracja FROM pojazd
-INNER JOIN pracownik ON pojazd.id_pojazd=pracownik.id_pojazd
-INNER JOIN osoba ON osoba.id_osoby=pracownik.id_osoba
-WHERE pojazd.id_pojazd=2
-WITH READ ONLY;
 
 CREATE OR REPLACE VIEW pojazdy_strazy AS
 SELECT pojazd.model, pojazd.rejestracja, jednostka.nazwa FROM pojazd
@@ -46,11 +40,10 @@ INNER JOIN osoba ON osoba.id_osoby=pracownik.id_osoba
 INNER JOIN jednostka ON jednostka.id_jednostka=pracownik.id_jednostka
 WHERE stanowisko.id_stanowisko LIKE '1'
 WITH READ ONLY;
-SELECT * FROM komendanci;
 
+SELECT * FROM komendanci;
 SELECT * FROM jurysdykcje1;
 SELECT * FROM zgloszenie1;
 SELECT * FROM pojazd1;
-SELECT * FROM pojazd2;
 SELECT * FROM pojazdy_strazy;
 SELECT * FROM osoby1;
