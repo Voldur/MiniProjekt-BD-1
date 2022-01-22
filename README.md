@@ -27,7 +27,7 @@ sqlplus system/bd@localhost/XE
 
 ```bd``` Używamy jako hasło do naszej bazy danych
 
-Program po tej konfiguracji automatycznie załaduje nam program do obsługi interfejsu tekstowego bazy, sam ustawi polskie znaki i szerokość wyświetlanej tabli.
+Program po tej konfiguracji automatycznie załaduje nam program do obsługi interfejsu tekstowego bazy, sam ustawi polskie znaki i szerokość wyświetlanej tabeli.
 
 ## SPRAWOZDANIE
 [Sprawozdanie wykonane za pomocą Google Docs dostępne pod adresem](https://docs.google.com/document/d/1XcoI_pxX_Y333Jj1p_CGyhO-n63axE0nCOTYTN7aZMc/edit?usp=sharing "Google Docs")
