@@ -30,6 +30,42 @@ INSERT INTO adres VALUES(27, 'Białystok', 'Warszawska','59');
 INSERT INTO adres VALUES(28, 'Sopot', 'Bohaterów Monte Cassino','17');
 INSERT INTO adres VALUES(29, 'Wrocław', 'Ruska','62');
 INSERT INTO adres VALUES(30, 'Lipinki Łużyckie', 'Główna','6');
+INSERT INTO adres VALUES(31, 'Radom', 'Stanisława Wernera','10');
+INSERT INTO adres VALUES(32, 'Radom', 'Żeromskiego','29');
+INSERT INTO adres VALUES(33, 'Radom', 'Juliusza Słowackiego','10');
+INSERT INTO adres VALUES(34, 'Radom', 'plac Jagielloński','8');
+INSERT INTO adres VALUES(35, 'Radom', 'Malczewskiego','9');
+INSERT INTO adres VALUES(36, 'Radom', 'Aleja Józefa','44');
+INSERT INTO adres VALUES(37, 'Radom', 'Romualda Traugutta','42');
+INSERT INTO adres VALUES(38, 'Radom', 'Bolesława Chrobrego','43');
+INSERT INTO adres VALUES(39, 'Radom', 'Stanisława Żółkowskigeo','8');
+INSERT INTO adres VALUES(40, 'Radom', 'Podwalna','22');
+INSERT INTO adres VALUES(41, 'Radom', 'Jana Pawła','11');
+INSERT INTO adres VALUES(42, 'Warszawa', 'Puławska','1');
+INSERT INTO adres VALUES(43, 'Warszawa', 'Syreny','2');
+INSERT INTO adres VALUES(44, 'Warszawa', 'Krzaka','3');
+INSERT INTO adres VALUES(45, 'Warszawa', 'Matki Teresy','22');
+INSERT INTO adres VALUES(46, 'Warszawa', 'Lecha Kaczyńskiego','14');
+INSERT INTO adres VALUES(47, 'Warszawa', 'Św Judasza','44');
+INSERT INTO adres VALUES(48, 'Warszawa', 'Judasza','13');
+INSERT INTO adres VALUES(49, 'Warszawa', 'Myszki','44');
+INSERT INTO adres VALUES(50, 'Warszawa', 'Klawiatury','22');
+INSERT INTO adres VALUES(51, 'Warszawa', 'Ceplusplusa','100');
+INSERT INTO adres VALUES(52, 'Warszawa', 'pythona','21');
+INSERT INTO adres VALUES(53, 'Kielce', 'Waligóry','211');
+INSERT INTO adres VALUES(55, 'Kielce', 'Lisowskiego','41');
+INSERT INTO adres VALUES(56, 'Kielce', 'Wesoła','44');
+INSERT INTO adres VALUES(57, 'Kielce', 'Niemiecka','43');
+INSERT INTO adres VALUES(58, 'Kielce', 'Szczecińska','80');
+INSERT INTO adres VALUES(59, 'Kielce', 'Judasza','37');
+INSERT INTO adres VALUES(60, 'Kielce', 'Wrocławska','11');
+INSERT INTO adres VALUES(61, 'Kielce', 'Radomska','1');
+INSERT INTO adres VALUES(62, 'Kielce', 'Kielecka','4');
+INSERT INTO adres VALUES(63, 'Kielce', 'Lekka','5');
+INSERT INTO adres VALUES(64, 'Kielce', 'Niska','3');
+
+
+
 
 
 --STANOWISKO--
@@ -158,6 +194,40 @@ INSERT INTO osoba VALUES(27, 'Piotr', 'Żyła', '80020484598', '198720222', 27);
 INSERT INTO osoba VALUES(28, 'Johann', 'Bach', '03261414373', '168517501', 28);
 INSERT INTO osoba VALUES(29, 'Jan', 'Łośrodo', '68723518312', '197020201', 29);
 INSERT INTO osoba VALUES(30, 'Jarosław', 'Mexicano', '6509313981', '789235711', 30);
+INSERT INTO osoba VALUES(31, 'Jarosław', 'Jarząbkowski', '6522213981', '673824612', 31);
+INSERT INTO osoba VALUES(32, 'Judasz', 'Niebieski', '65070671925', '62012415294', 32);
+INSERT INTO osoba VALUES(33, 'Jan', 'Wons', '68063098237', '70052325954', 33);
+INSERT INTO osoba VALUES(34, 'Jan', 'Jhons', '84010667435', '88083074169', 34);
+INSERT INTO osoba VALUES(35, 'Krzysztof', 'Krzyż', '96041278153', '76121398517', 35);
+INSERT INTO osoba VALUES(36, 'Ewa', 'Awans', '86022197258', '04301886484', 36);
+INSERT INTO osoba VALUES(37, 'Sebastian', 'Nowy', '85111374631', '59051833468', 37);
+INSERT INTO osoba VALUES(38, 'Jerzy', 'Jopek', '72062627549', '72100136323', 38);
+INSERT INTO osoba VALUES(39, 'Kuba', 'Aligator', '58100656144', '71090941135', 39);
+INSERT INTO osoba VALUES(40, 'Roman', 'Niewiadomski', '50121881819', '00312587981', 40);
+INSERT INTO osoba VALUES(41, 'Szymon', 'Niewidomski', '50121883339', '00312584441', 41);
+INSERT INTO osoba VALUES(42, 'Norbert', 'Trap', '53101327699', '94121913859', 42);
+INSERT INTO osoba VALUES(43, 'Patrycja', 'Aneksowa', '97090151958', '58022714359', 43);
+INSERT INTO osoba VALUES(44, 'Alicja', 'Asteroida', '04271334837', '98082098558', 44);
+INSERT INTO osoba VALUES(45, 'Anna', 'Akrobata', '56112986378', '74060377839', 45);
+INSERT INTO osoba VALUES(46, 'Asterix', 'Obelix', '74021736419', '57021195592', 46);
+INSERT INTO osoba VALUES(47, 'Ksawery', 'Rower', '73102353714', '73020975821', 47);
+INSERT INTO osoba VALUES(48, 'Ramses', 'Drugi', '98042849358', '84031037657', 48);
+INSERT INTO osoba VALUES(49, 'Iga', 'Głosowa', '90050792813', '47072132848', 49);
+INSERT INTO osoba VALUES(50, 'Artur', 'Kruk', '02322061644', '52110156551', 50);
+INSERT INTO osoba VALUES(51, 'Rafał', 'Gil', '70012894849', '55040175878', 51);
+INSERT INTO osoba VALUES(52, 'Kuba', 'Wrona', '85121922132', '01210634764', 52);
+INSERT INTO osoba VALUES(53, 'Stanisław', 'Moniuszko', '74020575349', '78113036913', 53);
+INSERT INTO osoba VALUES(54, 'Barbara', 'Kwarc', '96012694159', '93020974255', 54);
+INSERT INTO osoba VALUES(55, 'Michał', 'Mroczek', '59111229314', '86100841563', 55);
+INSERT INTO osoba VALUES(56, 'Judasz', 'Pazerny', '71030679326', '77110834678', 56);
+INSERT INTO osoba VALUES(57, 'Bogdan', 'Boner', '75081876268', '05220379684', 57);
+INSERT INTO osoba VALUES(58, 'Marcin', 'Syberian', '64042213738', '73012737695', 58);
+INSERT INTO osoba VALUES(59, 'Jan', 'Polit', '84121592756', '75092374582', 59);
+INSERT INTO osoba VALUES(60, 'Karol', 'Polip', '74011758393', '89092732392', 61);
+INSERT INTO osoba VALUES(61, 'Agata', 'Fiata', '51070913466', '78041825191', 62);
+INSERT INTO osoba VALUES(62, 'Iza', 'Matiza', '82060616133', '51081868247', 63);
+
+
 
 --PRACOWNIK--
 ----PRACOWNIK, OSOBA, POJAZD, ZMIANA, STANOWISKO, JEDNOSTKA, PENSJA, STARZ
