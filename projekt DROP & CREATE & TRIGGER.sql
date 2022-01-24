@@ -128,15 +128,18 @@ CONSTRAINT ID_adres_zgl
 );
 
 create or replace TRIGGER pracownik_add
-BEFORE INSERT ON pracownik
-DECLAREs
+BEFORE INSERT ON pracownik FOR EACH ROW
+DECLARE
 i NUMBER;
+stan NUMBER;
 BEGIN
+    stan:=:NEW.ID_stanowisko;
     SELECT COUNT(*) INTO i FROM Pracownik WHERE Pracownik.ID_stanowisko = 1;
-    IF(i >= 1 AND NEW.ID_stanowisko = 1) THEN
-    RAISE_APPLICATION_ERROR(-2000, 'Komendant moze byc tylko jeden');
+    IF(i >= 1 AND stan = 1) THEN
+    RAISE_APPLICATION_ERROR(-2001, 'Komendant moze byc tylko jeden');
 END IF;
 END;
+/
 
 CREATE OR REPLACE TRIGGER pensja
 AFTER INSERT OR UPDATE ON pracownik FOR EACH ROW
