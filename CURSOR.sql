@@ -74,23 +74,23 @@ END;
 Create or replace function cursor4
 RETURN NUMBER
 IS
-CURSOR cur3 IS
+CURSOR cur4 IS
     SELECT pracownik.pensja, adres.miasto from pracownik
     inner join osoba on pracownik.id_osoba = osoba.id_osoby
     inner join adres on adres.id_adres = osoba.id_adres
     Where adres.miasto='Choroszcz';
 srednia NUMBER :=0;
 l_prac NUMBER :=0;
-buffor cur3%rowtype;
+buffor cur4%rowtype;
 BEGIN
-OPEN cur3;
+OPEN cur4;
 LOOP
-    FETCH cur3 INTO buffor;
+    FETCH cur4 INTO buffor;
     EXIT WHEN cur1%NOTFOUND;
     l_prac := l_prac + 1;
     srednia := srednia + buffor.pensja;
 END LOOP;
-CLOSE cur3;
+CLOSE cur4;
 RETURN srednia/l_prac;
 END;
 /
