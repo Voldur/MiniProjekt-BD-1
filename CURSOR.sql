@@ -38,7 +38,7 @@ BEGIN
 OPEN cur2;
 LOOP
     FETCH cur2 INTO buffor;
-    EXIT WHEN cur1%NOTFOUND;
+    EXIT WHEN cur2%NOTFOUND;
     l_prac := l_prac + 1;
     srednia := srednia + buffor.pensja;
 END LOOP;
@@ -62,7 +62,7 @@ BEGIN
 OPEN cur3;
 LOOP
     FETCH cur3 INTO buffor;
-    EXIT WHEN cur1%NOTFOUND;
+    EXIT WHEN cur3%NOTFOUND;
     l_prac := l_prac + 1;
     srednia := srednia + buffor.pensja;
 END LOOP;
@@ -86,7 +86,7 @@ BEGIN
 OPEN cur4;
 LOOP
     FETCH cur4 INTO buffor;
-    EXIT WHEN cur1%NOTFOUND;
+    EXIT WHEN cur4%NOTFOUND;
     l_prac := l_prac + 1;
     srednia := srednia + buffor.pensja;
 END LOOP;
