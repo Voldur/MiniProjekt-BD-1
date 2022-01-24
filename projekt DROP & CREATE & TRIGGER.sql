@@ -129,11 +129,11 @@ CONSTRAINT ID_adres_zgl
 
 create or replace TRIGGER pracownik_add
 BEFORE INSERT ON pracownik
-DECLARE
+DECLAREs
 i NUMBER;
 BEGIN
     SELECT COUNT(*) INTO i FROM Pracownik WHERE Pracownik.ID_stanowisko = 1;
-    IF(i > 1) THEN
+    IF(i >= 1 AND NEW.ID_stanowisko = 1) THEN
     RAISE_APPLICATION_ERROR(-2000, 'Komendant moze byc tylko jeden');
 END IF;
 END;
