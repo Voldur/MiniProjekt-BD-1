@@ -233,16 +233,23 @@ INSERT INTO osoba VALUES(62, 'Iza', 'Matiza', '82060616133', '51081868247', 63);
 ----PRACOWNIK, OSOBA, POJAZD, ZMIANA, STANOWISKO, JEDNOSTKA, PENSJA, STARZ
 INSERT INTO pracownik VALUES(1, 1, 1, 1, 1, 1, 10000, 10);
 INSERT INTO pracownik VALUES(2, 2, 2, 2, 2, 2, 3600, 5);
-INSERT INTO pracownik VALUES(3, 3, 9, 3, 2, 3, 4200, 5);
+INSERT INTO pracownik VALUES(3, 3, 9, 3, 2, 3, 4200, 11);
 INSERT INTO pracownik VALUES(4, 4, 12, 1, 2, 4, 4100, 5);
-INSERT INTO pracownik VALUES(5, 5, 15, 2, 3, 1, 4900, 5);
-INSERT INTO pracownik VALUES(6, 6, 1, 3, 3, 2, 4100, 5);
-INSERT INTO pracownik VALUES(7, 7, 2, 2, 4, 3, 4100, 5);
-INSERT INTO pracownik VALUES(8, 8, 2, 4, 4, 2, 4100, 5);
-INSERT INTO pracownik VALUES(9, 9, 2, 4, 5, 3, 6000, 5);
-INSERT INTO pracownik VALUES(10, 10, 3, 5, 2, 2, 3900, 5);
-INSERT INTO pracownik VALUES(11, 11, 3, 5, 2, 3, 5000, 5);
-INSERT INTO pracownik VALUES(12, 12, 4, 5, 5, 4, 4000, 5);
+INSERT INTO pracownik VALUES(5, 5, 15, 2, 3, 1, 4900, 1);
+INSERT INTO pracownik VALUES(6, 6, 1, 3, 3, 2, 4100, 2);
+INSERT INTO pracownik VALUES(7, 7, 2, 2, 4, 3, 4100, 6);
+INSERT INTO pracownik VALUES(8, 8, 2, 4, 4, 2, 4100, 2);
+INSERT INTO pracownik VALUES(9, 31, 2, 4, 5, 3, 6000, 5);
+INSERT INTO pracownik VALUES(10, 32, 3, 5, 2, 2, 3900, 5);
+INSERT INTO pracownik VALUES(11, 33, 3, 2, 2, 3, 5000, 2);
+INSERT INTO pracownik VALUES(12, 34, 4, 2, 5, 4, 4100, 3);
+INSERT INTO pracownik VALUES(13, 43, 5, 2, 2, 1, 4100, 5);
+INSERT INTO pracownik VALUES(14, 44, 5, 5, 2, 2, 4000, 5);
+INSERT INTO pracownik VALUES(15, 45, 6, 4, 3, 3, 4200, 12);
+INSERT INTO pracownik VALUES(16, 46, 6, 4, 3, 3, 4400, 4);
+INSERT INTO pracownik VALUES(17, 57, 7, 1, 4, 4, 4700, 2);
+INSERT INTO pracownik VALUES(18, 58, 7, 1, 4, 2, 5000, 1);
+INSERT INTO pracownik VALUES(19, 56, 11, 3, 5, 4, 6000, 8);
 
 --STATUS--
 ----ID_STATUS, STATUS_ZGLOSZENIA, DATA_ROZPOCZECIA, DATA_ZAKONCZENIA, ID_POAJZD
@@ -285,4 +292,3 @@ insert into wyposazenie values(12,12,12,1);
 insert into wyposazenie values(13,13,13,1);
 insert into wyposazenie values(14,14,14,1);
 insert into wyposazenie values(15,15,15,1);
-
