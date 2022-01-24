@@ -16,7 +16,7 @@ Mini projekt na laboratorium Bazy Danych 1 o temacie projektu 'Straż pożarna' 
 | KURSORY | 4 / 4 | ✔️ |
 | WYZWALACZE | 3 / 3 | ✔️ |
 | INTERFEJS | 100% | ✔️ |
-| SPRAWOZDANIE | 56% | ❌ |
+| SPRAWOZDANIE | 100% | ✔️ |
 
 ## INTERFEJS
 Pobierając folder SCRIPT otwieramy notatnikiem plik run.bat i edytujemy linijkę trzecią:
