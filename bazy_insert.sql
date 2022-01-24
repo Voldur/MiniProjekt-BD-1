@@ -53,6 +53,7 @@ INSERT INTO adres VALUES(50, 'Warszawa', 'Klawiatury','22');
 INSERT INTO adres VALUES(51, 'Warszawa', 'Ceplusplusa','100');
 INSERT INTO adres VALUES(52, 'Warszawa', 'pythona','21');
 INSERT INTO adres VALUES(53, 'Kielce', 'Waligóry','211');
+INSERT INTO adres VALUES(54, 'Kielce', 'Wiejska','23');
 INSERT INTO adres VALUES(55, 'Kielce', 'Lisowskiego','41');
 INSERT INTO adres VALUES(56, 'Kielce', 'Wesoła','44');
 INSERT INTO adres VALUES(57, 'Kielce', 'Niemiecka','43');
